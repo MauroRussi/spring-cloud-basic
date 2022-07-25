@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+# Path to find the directory with the configuration files for each service.
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/digitallab-academy/ms-course-youtube.git
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
