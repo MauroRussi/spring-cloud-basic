@@ -13,10 +13,14 @@ spring:
 #          search-locations: file://${user.home}/DEV/java/SpringCloud/spring-cloud-demo/config-data
         git:
           uri: https://github.com/MauroRussi/spring-cloud-demo.git
+          default-label: main
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+
+# For demo purposes: MauroDemo / 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
   security:
     user:
       name: root
       password: s3cr3t
+
