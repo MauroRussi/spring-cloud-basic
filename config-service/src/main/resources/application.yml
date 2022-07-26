@@ -15,10 +15,9 @@ spring:
           uri: https://github.com/MauroRussi/spring-cloud-demo.git
           default-label: main
           searchPaths: config-data
+# For demo purposes: MauroDemo / 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
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-
-# For demo purposes: MauroDemo / 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
   security:
     user:
       name: root
