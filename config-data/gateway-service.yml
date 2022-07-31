@@ -5,11 +5,6 @@ server:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-5%p} %m%n"
-  level:
-    org:
-      hibernate:
-        SQL: DEBUG
-        type: TRACE
 
 eureka:
   client:
