@@ -1,4 +1,4 @@
-package academy.digitallab.store.config;
+package co.com.home.labs.springboot.store.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

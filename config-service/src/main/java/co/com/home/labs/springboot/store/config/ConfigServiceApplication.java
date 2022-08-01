@@ -1,4 +1,4 @@
-package academy.digitallab.store.config;
+package co.com.home.labs.springboot.store.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
