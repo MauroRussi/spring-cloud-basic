@@ -27,6 +27,7 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 	implementation 'org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j'
 	implementation group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version: '2.7.3'
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
 	compileOnly 'org.projectlombok:lombok'
 	//runtimeOnly 'com.h2database:h2'
 	//This is a workaround to support SpringBoot 2.7.0
