@@ -5,6 +5,7 @@ server:
     # Since SpringBoot 2.3 message response is hidden to avoid leaking sensitive information
     include-message: always
     include-binding-errors: always
+    forward-headers-strategy: framework
 
 # To see H2 Console in Browser
 # http://localhost:8091/h2-console
@@ -60,6 +61,5 @@ management:
 springdoc:
   api-docs:
     path: /openapi
-# To support a different swagger endpoint but it needs a workaround if it is behind a reverse proxy
-#  swagger-ui:
-#    path: /swagger
+  swagger-ui:
+    path: /customers/swagger/swagger-ui.html
