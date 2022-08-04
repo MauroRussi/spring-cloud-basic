@@ -11,6 +11,8 @@ server:
 # http://localhost:8091/h2-console
 # Enabling H2 Console
 spring:
+  application:
+    name: customer-service
   h2:
     console:
       enable: true
@@ -60,6 +62,6 @@ management:
 
 springdoc:
   api-docs:
-    path: /openapi
+    path: /customers/openapi
   swagger-ui:
-    path: /customers/swagger/swagger-ui.html
+    path: /customers/swagger
